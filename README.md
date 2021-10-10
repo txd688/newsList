@@ -23,3 +23,5 @@ node main.js
 ### 项目说明
 
 采用node前后端分离思想，实现新闻列表、详情页。
+
+csdn文章地址：<https://blog.csdn.net/qq_41538165/article/details/120693873>
