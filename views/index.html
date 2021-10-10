@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>首页</title>
+  <style>
+    body,html{
+      margin: 0;
+      padding: 0;
+      width:100%;
+      height:100%;
+    }
+    .wrap{
+      width:600px;
+      margin: 40px auto;
+      border:1px solid #ccc;
+      padding: 50px;
+    }
+    a{
+      text-decoration: none;
+      color: rgba(0,0,0,.65);
+    }
+    #pagination{
+      text-align: center;
+    }
+    #pagination a{
+      height: 32px;
+      margin-right: 8px;
+      display:inline-flex;
+      justify-content: center;
+      align-items: center;
+      vertical-align: middle;
+      min-width: 32px;
+      list-style: none;
+      background-color: #fff;
+      border: 1px solid #d9d9d9;
+      border-radius: 4px;
+      outline: 0;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      padding: 0 6px;
+      transition: none;
+    }
+    .active{
+      font-weight: 500!important;
+      color: #1890ff!important;
+      background: #fff!important;
+      border-color: #1890ff!important;
+    }
+    ul{
+      margin: 0;
+      padding-bottom:50px ;
+    }
+    ul li{
+      list-style-type: none;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #ccc;
+    }
+    ul li h3{
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    .info{
+      font-size: 14px;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <ul id="news-list"></ul>
+    <div id="pagination"></div>
+  </div>
+</body>
+<script src="../js/axios.js"></script>
+<script src="../js/index.js"></script>
+</html>
