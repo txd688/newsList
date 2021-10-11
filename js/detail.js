@@ -15,8 +15,7 @@ function getDetail(){
       <div class="button" onclick="window.history.go(-1)">返回</div>
       <h3>${ data.title }</h3>
       <div class="info">
-        <div>${ data.country }&nbsp;|&nbsp;</div>
-        <div>${ data.type }&nbsp;|&nbsp;</div>
+        <div>${ data.author }&nbsp;|&nbsp;</div>
         <div>${ data.addTime }</div>
       </div>
       <div class="content">${ data.content }</div>

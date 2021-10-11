@@ -26,7 +26,7 @@ function getNewsList(){
           <div>
             <h3><a href="detail?id=${ element.id }">${ element.title }</a></h3>
             <div class="info">
-              <span class="tips"><span>${ element.country }</span></span>
+              <span class="tips"><span>${ element.author }</span></span>
               <span class="time">&nbsp;|&nbsp;${ element.addTime }</span>
           </div>
           </div>
