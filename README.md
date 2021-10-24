@@ -26,4 +26,4 @@ node main.js
 
 csdn文章地址：<https://blog.csdn.net/qq_41538165/article/details/120693873>
 
-改写采用mysql作为数据存储：<https://github.com/txd688/mysql-newsList>
+扩展：采用mysql库实现新闻后管：https://github.com/txd688/newsListAdmin
